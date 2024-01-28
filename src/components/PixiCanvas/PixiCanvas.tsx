@@ -1,3 +1,4 @@
+// @ts-nocheck
 "use client";
 
 import styles from "./PixiCanvas.module.scss";
@@ -54,7 +55,6 @@ const PixiCanvas: React.FC = () => {
                 height: containerSize.height,
                 transparent: true
             });
-            // @ts-ignore
             pixiContainer.current.appendChild(app.current.view);
 
             // Add your PixiJS content here...
